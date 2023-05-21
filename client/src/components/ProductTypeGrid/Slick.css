@@ -1,0 +1,20 @@
+.slick-next {
+  top: 35%;
+  right: 45px;
+  z-index: 1;
+}
+.slick-prev {
+  top: 35%;
+  left: 40px;
+  z-index: 1;
+}
+
+.slick-prev::before {
+  content: url("../../assets/right-arrow-icon.svg") !important;
+width: 40px;
+}
+
+.slick-next::before {
+  content: url("../../assets/left-arrow-icon.svg") !important;
+width: 40px;
+}
